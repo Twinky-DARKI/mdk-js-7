@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Практика 7</title>
+    <style>
+      #movableBlock {
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        background-color: lightblue;
+        top: 150px;
+        left: 150px;
+        border: 1px solid #000;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Задача 1: Кнопка, которая скрывает себя -->
+    <button id="selfHideBtn">Click: Спрячь меня (скрываю себя)</button>
+
+    <!-- Задача 2: Элемент текста и кнопка для его скрытия/показа -->
+    <div id="text">Меня нужно скрыть, а потом обратно показать</div>
+    <button id="toggleTextBtn">Click: Скрыть/Показать текст</button>
+
+    <!-- Задача 3: Кнопка с событием mouseover -->
+    <button id="hoverBtn">Наведите: Mouseover</button>
+
+    <!-- Блок для перемещения -->
+    <div id="movableBlock"></div>
+    <script src="script.js" defer></script>
+  </body>
+</html>
